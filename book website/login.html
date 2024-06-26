@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/js/jquery.min.js">
+</head>
+
+<body>
+    <nav class="main_nav bg-body-tertiary ">
+        <div class="container-fluid">
+            <div class="row main_navbar">
+                <div class="col-md-4">
+                    <img class="logo" src="img/logo2.avif" alt="logo">
+                </div>
+                <div class="col-md-4">
+                    <form class="d-flex search position-relative" role="search">
+                        <input class="form-control me-2" type="search" placeholder="I'm looking for...."
+                            aria-label="Search">
+                        <div class="position-absolute search_icon">
+                            <i class="fa fa-search"> Search</i>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 icon">
+                    <i class="fa fa-shopping-bag bag">
+                        <span
+                            class="position-absolute top-2 start-80 translate-middle badge rounded-pill bg-secondary zero">
+                            0
+                    </i>
+                    </span>
+                    <i class="fa fa-user user"></i>
+
+                    <button class="btn btn-primary canvas_btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i
+                            class="fa fa-bars bars"></i></button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form class="d-flex canvas_search" role="search">
+                                <input class="form-control me-2" type="search" aria-label="Search">
+                                <div class="position-absolute canvasicon_search">
+                                    <i class="fa fa-search"> Search</i>
+                                </div>
+                            </form>
+                            <hr class="mt-5">
+                            <div class="col-md-4 canvas_icon">
+                                <i class="fa fa-shopping-bag canvas_bag mt-3">
+                                    <span
+                                        class="position-absolute top-2 start-80 translate-middle badge rounded-pill bg-secondary zero">
+                                        0
+                                </i>
+                                </span>
+                                <i class="fa fa-user canvas_user mt-3"></i>
+                                <ul class="canvas_ul mt-3">
+                                    <li class="canvas_li"><a class="canvas_a" href="">Home</a></li>
+
+                                    <li class="canvas_li"><a class="canvas_a" href="">Shop</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">Blog</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">pages</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">AboutUs</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">ContectUs</a></li>
+                                </ul>
+                            </div>
+                            <hr class="mt-3">
+
+                            <div>
+                                <ul class="canvas_ul mt-3">
+                                    <li class="canvas_li"><a class="canvas_a" href="">Account <i
+                                                class="fa fa-caret-down canvas_arrow" style="font-size:24px"></i></a>
+                                    </li>
+                                    <div class="canvasinner_box mt-5">
+                                        <div class="mt-4 canvasinner_p">
+                                            <p>Login</p>
+                                            <p class="mt-3">Create Account</p>
+                                        </div>
+                                    </div>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+    <div class="main_header">
+        <section class="container">
+            <div class="nav1 d-flex">
+                <ul class="nav_ul">
+                    <li><a class="nav_a" href="">Home</a></li>
+                    <li><a class="nav_a" href="">Shop</a></li>
+                    <li><a class="nav_a" href="">Blog</a></li>
+                    <li><a class="nav_a" href="">pages</a></li>
+                    <li><a class="nav_a" href="about.html">About Us</a></li>
+                    <li><a class="nav_a" href="co#">Contect Us</a></li>
+                </ul>
+                <div class="call">
+                    <img class="call1" src="img/support.png" alt="call_img" height="30px" width="30px">
+                    <a class="call" href="tel:(+01)-800-3456">(+01)-800-3456</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section>
+        <div class="img9">
+            <img class="img9" src="img/regimg9.webp" alt="img9" width="100%">
+            <div class="head2">
+                Account
+                <p class="p1">Home . Acoount</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="login_form">
+            <div>
+                <p class="p2">Login</p>
+                <p class="p3">Please login using account detail bellow.</p>
+                <div class="inp1">
+                    <input class="inp" type="email" name="name" id="name" placeholder="Email" required>
+                    <input class="inp" type="password" name="name" id="name" placeholder="Password" required> <br>
+
+                    <button type="button" class="btn btn-dark btn-lg btn7">Create</button>
+
+                    <!-- <a href="">Create Account</a> -->
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="main">
+            <div>
+                <h4 class="footer_h4">About Info</h4>
+                <p class="p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Voluptatum, doloremque.
+                    Voluptatibus </p>
+                <p class="p5"><i class="fa-solid fa-address-card"></i> &nbsp;&nbsp;Addresss:
+                        123
+                        Pall Mall,
+                        London England</p>
+                <p class="p5"> <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp; Email:
+                        hello@example.com
+                </p>
+                <p class="p5"><i class="fa-solid fa-phone"></i> &nbsp;&nbsp;Phone: (012) 345
+                        6789
+                </p>
+            </div>
+            <div class="footer_h4">Information
+                <ul class="footer_ul">
+               <li class="footer_li"><a class="footer_a" href="contect.html">Contect Us</a></li>
+               <li class="footer_li"><a class="footer_a" href="about.html">About Us</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">Term & Conditions</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">Gift Vouchers</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">BestSellers</a></li>
+    #
+            </div>
+            <div class="footer_h4">Quick Links
+                <p class="p6">My Account</p>
+                <p class="p7">Shopping Cart</p>
+                <p class="p8">Whishlist</p>
+                <p class="p9">Custom Link</p>
+                <p class="p10">Help</p>
+
+            </div>
+            <div class="footer_h4">Follow Us On
+                <p class="p6"><i class="fa-brands fa-facebook-f"> </i> &nbsp; &nbsp;Facebook</p>
+                <p class="p7"><i class="fa-brands fa-twitter"></i>&nbsp; &nbsp;Twitter</p>
+                <p class="p8"><i class="fa-brands fa-instagram"></i>&nbsp; &nbsp;Instgram</p>
+                <p class="p9"><i class="fa-brands fa-youtube"></i>&nbsp; &nbsp;YouTube</p>
+            </div>
+        </div>
+
+        <hr class="hr">
+        <div class="main">
+            <p class="p12">Copyright Dunki | Built with Dunki by Team90Degree</p>
+            <img class="footer_img" src="img/footer_img_large.avif" alt="f1">
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="font/js/all.min.js"></script>
+</body>
+
+</html>

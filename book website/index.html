@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/css/all.min.css">
+</head>
+
+
+<body>
+
+    <nav class="main_nav bg-body-tertiary ">
+        <div class="container-fluid">
+            <div class="row main_navbar">
+                <div class="col-md-4">
+                    <img class="logo" src="img/logo2.avif" alt="logo">
+                </div>
+                <div class="col-md-4">
+                    <form class="d-flex search position-relative" role="search">
+                        <input class="form-control me-2" type="search" placeholder="I'm looking for...."
+                            aria-label="Search">
+                        <div class="position-absolute search_icon">
+                            <i class="fa fa-search"> Search</i>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 icon">
+                    <i class="fa fa-shopping-bag bag">
+                        <span
+                            class="position-absolute top-2 start-80 translate-middle badge rounded-pill bg-secondary zero">
+                            0
+                    </i>
+                    </span>
+                    <i class="fa fa-user user"></i>
+
+                    <button class="btn btn-primary canvas_btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i
+                            class="fa fa-bars bars"></i></button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form class="d-flex canvas_search" role="search">
+                                <input class="form-control me-2" type="search" aria-label="Search">
+                                <div class="position-absolute canvasicon_search">
+                                    <i class="fa fa-search"> Search</i>
+                                </div>
+                            </form>
+                            <hr class="mt-5">
+                            <div class="col-md-4 canvas_icon">
+                                <i class="fa fa-shopping-bag canvas_bag mt-3">
+                                    <span
+                                        class="position-absolute top-2 start-80 translate-middle badge rounded-pill bg-secondary zero">
+                                        0
+                                </i>
+                                </span>
+                                <i class="fa fa-user canvas_user mt-3"></i>
+                                <ul class="canvas_ul mt-3">
+                                    <li class="canvas_li"><a class="canvas_a" href="">Home</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">Shop</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">Blog</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">pages</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">AboutUs</a></li>
+                                    <li class="canvas_li"><a class="canvas_a" href="">ContectUs</a></li>
+                                </ul>
+
+                            </div>
+                            <hr class="mt-3">
+
+                            <div>
+                                <ul class="canvas_ul mt-3">
+                                   <li class="canvas_li"><a class="canvas_a" href="">Account <i class="fa-solid fa-angle-down canvas_arrow"></li></a></i>
+                                    <div class="canvasinner_box mt-5">
+                                        <div class="mt-4 canvasinner_p">
+                                            <p>Login</p>
+                                            <p class="mt-3">Create Account</p>
+                                        </div>
+                                    </div>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+    <div class="main_header">
+        <section class="container">
+            <div class="nav1 d-flex">
+                <ul class="nav_ul">
+                    <li><a class="nav_a" href="">Home</a><i class="fa-solid fa-angle-down nav_downarrow"></i></li>
+                    <li><a class="nav_a" href="">Shop</a><i class="fa-solid fa-angle-down nav_downarrow"></i></li>
+                    <li><a class="nav_a" href="">Blog</a></li>
+                    <li><a class="nav_a" href="">Pages</a><i class="fa-solid fa-angle-down nav_downarrow"></i></li>
+                    <li><a class="nav_a" href="about.html">About Us</a></li>
+                    <li><a class="nav_a" href="contect.html">Contect Us</a></li>
+                </ul>
+                <div class="call">
+                    <img class="call1" src="img/support.png" alt="call_img" height="30px" width="30px">
+                    <a class="call" href="tel:(+01)-800-3456">(+01)-800-3456</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="main_banner">
+        <div class="container-fluid slide">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active position-relative main_banner1">
+                        <img class="img1" src="img/img3.webp" alt="img3" height="674px" width="770px">
+                        <div class="para1">
+                            <h1 class="banner_h1">Baby's First <br> Christmas</h1><br>
+                            <p class="banner_para">Introduce your little one to the magic of Christmas <br> carols with
+                                this enchanting book
+                                featuring
+                                classic <br> holiday tunes.</p>
+                            <p class="banner_para2">Introduce your little one to the magic <br> of Christmas <br> carols
+                                with
+                                this enchanting book
+                                featuring
+                                <br> classic holiday tunes.
+                            </p><br>
+
+                            <button type="button" class="btn-btn-lg btn1">Shop Now</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background-color:#00453e;height: 800px ; ">
+                        <img class="img2" src="img/img4.webp" alt="img4" height="550px" width="550px">
+                        <div class="para2">
+                            <h1>Kid's Featured Books</h1><br>
+                            <p class="banner_para">Introduce your little one to the magic of Christmas <br> carols with
+                                this enchanting book
+                                featuring
+                                classic <br> holiday tunes.</p><br>
+                            <button type="button" class="btn-btn-lg btn1">Shop Now</button>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popularbook">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h1>Popular Books</h1>
+                </div>
+                <div class="btn-group col-md-6" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn2 btn-outline-primary">Featured Books</button>
+                    <button type="button" class="btn2 btn-outline-primary">Best Sellers</button>
+                    <button type="button" class="btn2 btn-outline-primary">Most Viewed</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img5.webp" class="img-thumbnail border border-0" alt="img5">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        John Steinbeck
+                    </div>
+                    <h4 class="f4">Mystery Of The Dark Village</h4>
+                    <div class="ruppes">
+                        <span> £821.61 </span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img6.webp" class="img-thumbnail border border-0" alt="img6">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Ernest Hemingway
+                    </div>
+                    <h4 class="f4">Secrets of the Velvet Quill</h4>
+                    <div class="ruppes">
+                        <span>£471.46</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img7.webp" class="img-thumbnail border border-0" alt="img7">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Khaled Hosseini
+                    </div>
+                    <h4 class="f4">Whispers of the Enchanted Forest</h4>
+                    <div class="ruppes">
+                        <span> £92.60</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img8.webp" class="img-thumbnail border border-0" alt="img8">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        John Grisham
+                    </div>
+                    <h4 class="f4">First Love Shadows of Nebula</h4>
+                    <div class="ruppes">
+                        <span> £92.60</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 ">
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img9.webp" class="img-thumbnail border border-0" alt="img9">
+                        <p class="sale">SALE</p>
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                        <div class="time_box d-flex">
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">382</h6>
+                                <p class="time_title">Days</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">13</h6>
+                                <p class="time_title">Hours</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">20</h6>
+                                <p class="time_title">Min</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">29</h6>
+                                <p class="time_title">Sec</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="head1">
+                        James Patterson
+                    </div>
+                    <h4 class="f4">Our Familay Mysteries Ever</h4>
+                    <div class="ruppes">
+                        <del>£80.00</del>
+                        <span>£59.00</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img10.webp" class="img-thumbnail border border-0" alt="img10">
+                        <p class="sale">SALE</p>
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Michael Crichton
+                    </div>
+                    <h4 class="f4">Kaleidoscope Chronicles Book</h4>
+                    <div class="ruppes">
+                        <del>£250.00</del>
+                        <span>£230.78</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img11.webp" class="img-thumbnail border border-0" alt="img11">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Octavia E. Butler
+                    </div>
+                    <h4 class="f4">Love in Bloom Timeless Wisdom</h4>
+                    <div class="ruppes">
+                        <span>£92.60</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img12.webp" class="img-thumbnail border border-0" alt="img12">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Jim Richardson
+                    </div>
+                    <h4 class="f4">Science Fiction Saga You</h4>
+                    <div class="ruppes">
+                        <span>£92.60</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edvertise mt-5 ">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-md-6">
+                    <img class="img13" src="img/img13.webp" alt="img13" width="100%">
+                    <div class="text">
+                        <h5 class="edvertise_h5">Up To 20% Off</h5>
+                        <h2 class="edvertise_h2">Best Weekend</h2>
+                        <h5 class="edvertise_h5"> Shop Now</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <img src="img/img14.webp" alt="img14" width="100%">
+                    <div class="text1">
+                        <h5 class="edvertise_h5">Special Offer</h5>
+                        <h2 class="edvertise_h2">Nice Bookshelf</h2>
+                        <h5 class="edvertise_h5">Shop Now</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="allbook d-flex">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h1>Deals Of The Week</h1>
+                </div>
+                <div class="btn-group col-md-6" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn3 btn-outline-primary">View All Book</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative ">
+                        <img src="img/img16.webp" class="img-thumbnail border border-0 img16" alt="img16">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Toni Morrison
+                    </div>
+                    <h4 class="f4">Tales from the Forgotten Realms</h4>
+                    <div class="ruppes">
+                        <span>£92.60</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img17.webp" class="img-thumbnail border border-0" alt="img17">
+                        <p class="sale">SALE</p>
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                        <div class="time_box d-flex">
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">382</h6>
+                                <p class="time_title">Days</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">13</h6>
+                                <p class="time_title">Hours</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">20</h6>
+                                <p class="time_title">Min</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">29</h6>
+                                <p class="time_title">Sec</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="head1">
+                        Agatha Christie
+                    </div>
+                    <h4 class="f4">Some Where In The City</h4>
+                    <div class="ruppes">
+                        <del>£80.00 </del>
+                        <span>£59.00</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img18.webp" class="img-thumbnail border border-0 icon" alt="img18">
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="head1">
+                        H.G. Wells
+                    </div>
+                    <h4 class="f4">The Enigmatic Labyrinth Story</h4>
+                    <div class="ruppes">
+                        <span>£817.30</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 main_icon">
+                    <div class="blc1 position-relative">
+                        <img src="img/img9.webp" class="img-thumbnail border border-0 " alt="img9">
+                        <p class="sale">SALE</p>
+                        <div class="icon3">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon_box">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                           <div class="icon_box">
+                                <i class="fa-solid fa-lock"></i>
+                           </div>
+                        </div>
+                        <div class="time_box d-flex">
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">382</h6>
+                                <p class="time_title">Days</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6  class="time_h6">13</h6>
+                                <p class="time_title">Hours</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">20</h6>
+                                <p class="time_title">Min</p>
+                            </div>
+                            <div class="time1 text-center">
+                                <h6 class="time_h6">29</h6>
+                                <p class="time_title">Sec</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="head1">
+                        James Patterson
+                    </div>
+                    <h4 class="f4">Our Familay Mysteries Ever</h4>
+                    <div class="ruppes">
+                        <del>£80.00</del>
+                        <span>£59.00</span>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="allbook">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h1>Fevorite Authors</h1>
+                </div>
+                <div class="btn-group col-md-6" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn3 btn-outline-primary">View All Authors</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/img20.webp" alt="img20" width="100%">
+                    <div class="author_name text-center pt-3">
+                        <h4 class="Author_img">Warren Grahams</h4>
+                        <p class="Author_p">8 Published Books</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/img21.webp" alt="img21" width="100%">
+                    <div class="author_name text-center pt-3">
+                        <h4 class="Author_img">Randal Adkins</h4>
+                        <p class="Author_p">8 Published Books</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/img22.webp" alt="img22" width="100%">
+                    <div class="author_name text-center pt-3">
+                        <h4 class="Author_img">Randal Adkins</h4>
+                        <p class="Author_p">8 Published Books</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/img23.webp" alt="img23" width="100%">
+                    <div class="author_name text-center pt-3">
+                        <h4 class="Author_img">Allison Tricia</h4>
+                        <p class="Author_p">8 Published Books</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="img24 position-relative">
+                        <img src="img/img24.webp" alt="img24" width="100%" height="100%">
+                        <div class="new_books text-center">
+                            <h6>NEW YEAR - NEW BOOKS</h6>
+                            <h1>The 19 Best New Books of <br> January</h1>
+                            <p class="book_link text-decoration-underline">Shop Now</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="img5_2 d-flex ">
+                        <img src="img/img5.webp" alt="img5" width="34%" height="35%">
+                        <div class="book_text mt-4">
+                            <p class="text-secondary ">Erik Martin.</p>
+                            <p class="b_p1">Mystery Of The Dark Village</p>
+                            <h6 class="b_h6">£821.61</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-2">
+                        <img src="img/img9.webp" alt="img9" width="34%" height="35%">
+                        <div class="book_text mt-4">
+                            <p class="text-secondary ">James Dylan.</p>
+                            <p class="b_p1">Our Familay Mysteries Ever</p>
+                            <h6 class="b_h6"><del class="del_pr">£80.00</del> £821.61</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-2">
+                        <img src="img/img6.webp" alt="img6" width="34%" height="35%">
+                        <div class="book_text mt-4">
+                            <p class="text-secondary ">James Dylan.</p>
+                            <p class="b_p1">Secrets of the Velvet Quill</p>
+                            <h6 class="b_h6">£471.46</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-2">
+                        <img src="img/img10.webp" alt="img10" width="34%" height="35%">
+                        <div class="book_text mt-4">
+                            <p class="text-secondary ">Historical.</p>
+                            <p class="b_p1">Kaleidoscope Chronicles Book</p>
+                            <h6 class="b_h6"><del class="del_pr">£250.00</del> £230.78</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="img5_2 d-flex">
+                        <img src="img/img9.webp" alt="" width="35%" height="35%">
+                        <div class=" book_text2 ">
+                            <p class="text-secondary ">James Dylan.</p>
+                            <p class="b_p1">Our Familay Mysteries Ever</p>
+                            <h6 class="b_h6">£59.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-3">
+                        <img src="img/img25.webp" alt="img25" width="35%" height="35%">
+                        <div class=" book_text2 ">
+                            <p class="text-secondary ">Sage Isaias.</p>
+                            <p class="b_p1">Chronicles of Celestial Realms</p>
+                            <h6 class="b_h6">£619.34</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-3">
+                        <img src="img/img5.webp" alt="img5" width="35%" height="35%">
+                        <div class=" book_text2 ">
+                            <p class="text-secondary ">Erik Martin.</p>
+                            <p class="b_p1">Mystery Of The Dark Village</p>
+                            <h6 class="b_h6">£821.61</h6>
+                        </div>
+                    </div>
+
+                    <div class="img5_2 d-flex mt-3">
+                        <img src="img/img26.webp" alt="img26" width="35%" height="35%">
+                        <div class=" book_text2 ">
+                            <p class="text-secondary ">Erik Martin.</p>
+                            <p class="b_p1">The Enigmatic Labyrinth Story</p>
+                            <h6 class="b_h6">£817.30</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5 small_item">
+                    <div class="d-flex">
+                        <div class="small_img1">
+                            <div class="small_circle">
+                                <img class="i1" src="img/small_img1.avif" alt="small_img1" width="60px">
+                            </div>
+                        </div>
+                        <div class="small_text">
+                            <h4>17,254</h4>
+                            <p class="small_p">Collection Books</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5  small_item">
+                    <div class="d-flex">
+                        <div class="small_img1">
+                            <div class="small_circle">
+                                <img class="i1" src="img/small_img2.avif" alt="small_img2" width="60px">
+                            </div>
+                        </div>
+                        <div class="small_text">
+                            <h4>12,000</h4>
+                            <p class="small_p">Authors Among Us</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5  small_item">
+                    <div class="d-flex">
+                        <div class="small_img1">
+                            <div class="small_circle">
+                                <img class="i1" src="img/small_img3.avif" alt="small_img3" width="60px">
+                            </div>
+                        </div>
+                        <div class="small_text">
+                            <h4>8,999</h4>
+                            <p class="small_p">Proudly Books Sold</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5  small_item">
+                    <div class="d-flex">
+                        <div class="small_img1">
+                            <div class="small_circle">
+                                <img class="i1" src="img/small_img4.avif" alt="small_img4" width="60px">
+                            </div>
+                        </div>
+                        <div class="small_text">
+                            <h4>60,000</h4>
+                            <p class="small_p">Satisfied Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="main">
+            <div>
+                <h4 class="footer_h4">About Info</h4>
+                <p class="p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Voluptatum, doloremque.
+                    Voluptatibus </p>
+                <p class="p5"><i class="fa-solid fa-address-card"></i> &nbsp;&nbsp;Addresss:
+                        123
+                        Pall Mall,
+                        London England</p>
+                <p class="p5"> <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp; Email:
+                        hello@example.com
+                </p>
+                <p class="p5"><i class="fa-solid fa-phone"></i> &nbsp;&nbsp;Phone: (012) 345
+                        6789
+                </p>
+            </div>
+            <div class="footer_h4">Information
+                <ul class="footer_ul">
+               <li class="footer_li"><a class="footer_a" href="contect.html">Contect Us</a></li>
+               <li class="footer_li"><a class="footer_a" href="about.html">About Us</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">Term & Conditions</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">Gift Vouchers</a></li>
+               <li class="footer_li"><a class="footer_a" href="#">BestSellers</a></li>
+            </ul>
+            </div>
+            <div class="footer_h4">Quick Links
+                <p class="p6">My Account</p>
+                <p class="p7">Shopping Cart</p>
+                <p class="p8">Whishlist</p>
+                <p class="p9">Custom Link</p>
+                <p class="p10">Help</p>
+
+            </div>
+            <div class="footer_h4">Follow Us On
+                <p class="p6"><i class="fa-brands fa-facebook-f"> </i> &nbsp; &nbsp;Facebook</p>
+                <p class="p7"><i class="fa-brands fa-twitter"></i>&nbsp; &nbsp;Twitter</p>
+                <p class="p8"><i class="fa-brands fa-instagram"></i>&nbsp; &nbsp;Instgram</p>
+                <p class="p9"><i class="fa-brands fa-youtube"></i>&nbsp; &nbsp;YouTube</p>
+            </div>
+        </div>
+
+        <hr class="hr">
+        <div class="main">
+            <p class="p12">Copyright Dunki | Built with Dunki by Team90Degree</p>
+            <img class="footer_img" src="img/footer_img_large.avif" alt="f1">
+        </div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="font/js/all.min.js"></script>
+</body>
+
+</html>
